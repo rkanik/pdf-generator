@@ -1,0 +1,144 @@
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+}
+
+.pdfconfig {
+	position: relative;
+}
+
+.pdfconfig__input {
+	margin-bottom: 1rem !important;
+}
+
+:root {
+	--primary-color: #3b4bba;
+	--black: #000;
+
+	--text-xs: 9pt;
+	--text-sm: 11pt;
+	--text-md: 14pt;
+	--text-lg: 2em;
+	--text-xl: 3em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.text-xs {
+	font-size: var(--text-xs);
+}
+
+.text-sm {
+	font-size: var(--text-sm);
+}
+
+.text-md {
+	font-size: var(--text-md);
+}
+
+.text-lg {
+	font-size: var(--text-lg);
+}
+
+.text-xl {
+	font-size: var(--text-xl);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bg-light-green {
+	background-color: #00800038;
+}
+
+.bg-light-pink {
+	background-color: #ffc0cb80;
+}
+
+.red {
+	color: red;
+}
+
+.black {
+	color: black;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.flex {
+	display: flex;
+}
+
+.p-0 {
+	padding: 0 !important;
+}
+
+.m-0 {
+	margin: 0 !important;
+}
+
+.border-0 {
+	border: 0;
+}
+
+.border-bottom-0 {
+	border-bottom: 0;
+}
+
+.adjust-left {
+	position: relative;
+	left: -0.5px;
+}
+
+.simulator-form {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th,
+td {
+	color: var(--primary-color);
+	font-size: var(--text-sm);
+	border: 1px solid var(--black);
+	font-family: Arial, serif;
+	font-weight: normal;
+	padding: 0.2em 0.5em;
+	text-align: left;
+	height: 30px;
+}
+
+label {
+	margin-right: 5px;
+	min-width: max-content;
+}
+
+input,
+input:focus,
+textarea,
+textarea:focus,
+textarea:active:focus {
+	width: 100%;
+	border: 0;
+	outline: 0;
+}
+
+@media print {
+	.adjust-left {
+		left: -1px;
+	}
+}
